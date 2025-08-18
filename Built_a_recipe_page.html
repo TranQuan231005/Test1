@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .lighter {
+      font-weight: lighter;
+      font-size: 20px;
+    }
+    .container {
+      display: flex;
+      /* Optional: Vertically centers the content in the container */
+      align-items: center;
+      /* You can adjust the height of container to suit your design */
+      height: 400px; /*This make the container take up the full viewport height */
+      /* Or a specific hegiht, e.g , height: 400px */
+    }
+    .text-side,
+    .image-side {
+      /* This makes both sides take up equal width */
+      flex: 0 30 70;
+      /* Or you can specify a percentage, e.g., flex: 0 0 50; */
+
+      /*Adds some padding for better spacing  */
+      padding: 20px;
+    }
+    .image-side {
+      /* Makes the image fill its container without overflowing */
+      max-width: 100%;
+      height: auto; /* Maintains the aspect ratio of the image */
+      display: block; /* Removes any extra space below the image */
+    }
+  </style>
+  <body>
+    <section>
+      <h1>SPAGHETTI BOLOGNESS</h1>
+    </section>
+    <p>
+      Please remember that the Australia tablespoons is 20ml, wheareas the
+      American tablespoon is only 14ml. So you need to convert it accordingly to
+      wherever you live
+    </p>
+    <section>
+      <h2 class="lighter">INGRETDIENTS</h2>
+    </section>
+    <div class="container">
+      <div class="text-side">
+        <ul>
+          <p>1kg of learn mince meat</p>
+          <p>1 medium onion (diced)</p>
+          <p>1 tablespoon of Masterfoods Spaghetti Bolognese herbs blend</p>
+          <p>1 tin of diced tomatoes</p>
+          <p>1 jar of Leggos Bolognese sauce (or any brand will do)</p>
+          <p>1.5 tablespoon Worcestershire sauce</p>
+          <p>1 tablespoon of borwn sugar</p>
+          <p>1-1 &frac12; teaspoon of salt</p>
+        </ul>
+      </div>
+      <div class="image-side">
+        <img
+          src="https://tse2.mm.bing.net/th/id/OIP.T80rtH6m18MPwCN1IIlKDwHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3.jpg"
+          alt="Spaghetti"
+        />
+      </div>
+    </div>
+    <section>
+      <h2 class="lighter"><i>METHOD:</i></h2>
+    </section>
+    <section>
+      <ul>
+        <li>Heat the saucepan and spray a small amount of oil in pan.</li>
+        <li>
+          Add 1 tablespoon of Masterfoods spaghetti Bolognese herbs blend and
+          stir Bolognese sauce and stir through
+        </li>
+        <li>
+          Add 1.5 tablespoond off Worchestshire sauce and approxiamtely 2
+          tablespoonds of sweet chilli sauce and stir through
+        </li>
+        <li>
+          Then add 1 tablespoon of bown sugar. To start off with add 1 teaspoon
+          of salt, stir through and taste. If more sugar is required a futher
+          &frac12; teaspoon can be added. Let simmer on a low heat for about 15
+          mins.
+        </li>
+        <li>Serve with any pasta or Spaghetti. Enjoy</li>
+      </ul>
+    </section>
+  </body>
+</html>
